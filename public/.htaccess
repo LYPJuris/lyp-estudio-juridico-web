@@ -1,0 +1,41 @@
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "no-referrer-when-downgrade"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*; font-src 'self'; connect-src 'self' https://*; object-src 'none'; frame-ancestors 'none';"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Redirect all requests to index.html for client-side routing
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
+
+# Enable Gzip Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/javascript application/x-javascript application/json
+</IfModule>
+
+# Cache Control
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access 1 year"
+    ExpiresByType image/jpeg "access 1 year"
+    ExpiresByType image/gif "access 1 year"
+    ExpiresByType image/png "access 1 year"
+    ExpiresByType text/css "access 1 month"
+    ExpiresByType application/pdf "access 1 month"
+    ExpiresByType application/javascript "access 1 month"
+    ExpiresByType application/x-javascript "access 1 month"
+    ExpiresByType application/x-shockwave-flash "access 1 month"
+    ExpiresByType image/x-icon "access 1 year"
+    ExpiresDefault "access 2 days"
+</IfModule>
+
