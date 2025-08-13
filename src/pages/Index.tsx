@@ -204,7 +204,7 @@ Saludos cordiales.`;
               />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">L & P ESTUDIO JURÍDICO</h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">Soluciones jurídicas claras y efectivas en Derecho Civil y Familia en Puerto Montt, Puerto Varas, Osorno, Valdivia y todo Chile.</p>
+            <p className="text-xl md:text-2xl mb-8 text-blue-100">Soluciones jurídicas claras y efectivas en Derecho Civil y Familia, aquí en la Región de Los Lagos.</p>
             <p className="text-lg mb-10 text-gray-300">Avalan nuestra experiencia múltiples sentencias favorables</p>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg rounded-lg shadow-lg transition-all hover:scale-105" onClick={() => document.getElementById('contacto')?.scrollIntoView({
             behavior: 'smooth'
@@ -271,7 +271,7 @@ Saludos cordiales.`;
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 id="servicios" className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nuestros Servicios</h2>
-            <p className="text-gray-600 text-lg">Protegemos tus derechos en Puerto Montt, Puerto Varas, Osorno, Valdivia y todo Chile, con experiencia en tribunales locales.</p>
+            <p className="text-gray-600 text-lg">Protegemos tus derechos en la Región de Los Lagos y Los Ríos, con experiencia en tribunales locales.</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -313,7 +313,7 @@ Saludos cordiales.`;
                   <li>• Insolvencia de la Ley N° 20.720</li>
                 </ul>
                 <p className="mt-4 text-gray-600">
-                  Protegemos tus intereses patrimoniales con estrategias legales efectivas y personalizadas.
+                  Protegemos tus intereses patrimoniales con estrategias efectivas y personalizadas.
                 </p>
               </CardContent>
             </Card>
@@ -398,7 +398,7 @@ Saludos cordiales.`;
             
             <div className="text-center">
               <Globe className="w-12 h-12 text-blue-400 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3">Atención a tu Medida</h3>            <p className="text-gray-600 text-lg">Atendemos online en Puerto Montt, Puerto Varas, Osorno, Valdivia y todo Chile.</p>        </div>
+              <h3 className="text-xl font-semibold mb-3">Atención a tu Medida</h3>            <p className="text-gray-600 text-lg">Atendemos online en la Región de Los Lagos y Los Ríos.</p>        </div>
           </div>
         </div>
       </section>
@@ -452,7 +452,7 @@ Saludos cordiales.`;
                     
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">Describe tu caso</label>
-                      <Textarea name="caso" placeholder="Cuéntanos brevemente tu situación legal..." className={`w-full h-32 ${formErrors.caso ? 'border-red-500' : ''}`} value={formData.caso} onChange={handleInputChange} required maxLength={1000} />
+                      <Textarea name="caso" placeholder="Cuéntanos brevemente tu situación..." className={`w-full h-32 ${formErrors.caso ? 'border-red-500' : ''}`} value={formData.caso} onChange={handleInputChange} required maxLength={1000} />
                       {formErrors.caso && <p className="text-red-500 text-sm mt-1">{formErrors.caso}</p>}
                       <p className="text-gray-500 text-sm mt-1">{formData.caso.length}/1000 caracteres</p>
                     </div>
@@ -463,7 +463,7 @@ Saludos cordiales.`;
                   </form>
                   
                   {/* WhatsApp Contact Box */}
-                  <a href="https://wa.me/56977646224?text=Hola,%20me%20gustaría%20solicitar%20una%20consulta%20jurídica%20sobre%20abogados%20familia%20en%20Puerto%20Montt,%20Puerto%20Varas,%20Osorno%20o%20Valdivia." target="_blank" rel="noopener noreferrer" className="mt-6 w-full inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10 transition-colors duration-300">
+                  <a href="https://wa.me/56977646224?text=Hola,%20me%20gustaría%20solicitar%20una%20consulta." target="_blank" rel="noopener noreferrer" className="mt-6 w-full inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10 transition-colors duration-300">
                     <MessageSquare className="w-6 h-6 mr-3" />
                     Chatear por WhatsApp
                   </a>
