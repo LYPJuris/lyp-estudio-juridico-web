@@ -398,7 +398,7 @@ Saludos cordiales.`;
             
             <div className="text-center">
               <Globe className="w-12 h-12 text-blue-400 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-3">Atención a tu Medida</h3>            <p className="text-gray-600 text-lg">Atendemos online en la Región de Los Lagos y Los Ríos.</p>        </div>
+              <h3 className="text-xl font-semibold mb-3">Atención a tu Medida</h3>            <p className="text-blue-100 text-lg">Atendemos online en la Región de Los Lagos y Los Ríos.</p>        </div>
           </div>
         </div>
       </section>
