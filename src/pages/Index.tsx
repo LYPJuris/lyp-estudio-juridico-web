@@ -203,7 +203,7 @@ Saludos cordiales.`;
                 className="h-48 md:h-64 mb-2"
               />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">L & P ESTUDIO JURÍDICO</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">LABRA & PÉREZ ESTUDIO JURÍDICO</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">Soluciones jurídicas claras y efectivas en Derecho Civil y Familia, aquí en la Región de Los Lagos.</p>
             <p className="text-lg mb-10 text-gray-300">Avalan nuestra experiencia múltiples sentencias favorables</p>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg rounded-lg shadow-lg transition-all hover:scale-105" onClick={() => document.getElementById('contacto')?.scrollIntoView({
@@ -510,7 +510,7 @@ Saludos cordiales.`;
                   <CardContent className="p-6">
                     <h3 className="text-lg font-semibold text-slate-800 mb-3">Atención Local, Resultados Reales</h3>
                     <div className="space-y-2 text-gray-700">
-                      <p>Trabajamos en la Región de Los Lagos y Región de Los Ríos.</p>
+                      <p>Trabajamos en la Región de Los Lagos y Región de Los Ríos: Puerto Montt, Puerto Varas, Osorno, Valdivia. </p>
                       <p className="font-medium">Sabemos cómo se resuelven los casos aquí… y cómo ganar el tuyo.</p>
                     </div>
                   </CardContent>
@@ -528,7 +528,7 @@ Saludos cordiales.`;
             <div>
               <div className="flex items-center mb-4">
                 
-                <h3 className="text-xl font-bold">L & P ESTUDIO JURÍDICO</h3>
+                <h3 className="text-xl font-bold">LABRA & PÉREZ ESTUDIO JURÍDICO</h3>
               </div>
               <p className="text-gray-400 mb-4">Soluciones legales confiables en Derecho Civil y de Familia</p>
             </div>
@@ -558,7 +558,7 @@ Saludos cordiales.`;
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p className="text-gray-400">© 2025 | L & P ESTUDIO JURÍDICO. | Todos los derechos reservados. </p>
+            <p className="text-gray-400">© 2025 | LABRA & PÉREZ ESTUDIO JURÍDICO. | Todos los derechos reservados. </p>
           </div>
         </div>
       </footer>
